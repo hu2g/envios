@@ -7,9 +7,9 @@ Este es un sistema en el cual tanto clientes como visitantes pueden cotizar env�
 * API Rest con Spring Boot
 * Aplicacion cliente con Angular JS  
 
-# Herramientas De Desarrollo
+# Explicación
 
-Link de la explicación: 
+Link del video: 
 
 # Consideraciones
 
