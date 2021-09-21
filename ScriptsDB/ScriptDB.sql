@@ -1,7 +1,3 @@
--- Generado por Oracle SQL Developer Data Modeler 21.2.0.183.1957
---   en:        2021-09-20 12:03:48 CST
---   sitio:      SQL Server 2012
---   tipo:      SQL Server 2012
 
 CREATE DATABASE envios;
 USE envios;
@@ -141,33 +137,3 @@ ALTER TABLE Package
     ON UPDATE NO ACTION 
 GO
 
-
-
--- Informe de Resumen de Oracle SQL Developer Data Modeler: 
--- 
--- CREATE TABLE                             5
--- CREATE INDEX                             0
--- ALTER TABLE                              9
--- CREATE VIEW                              0
--- ALTER VIEW                               0
--- CREATE PACKAGE                           0
--- CREATE PACKAGE BODY                      0
--- CREATE PROCEDURE                         0
--- CREATE FUNCTION                          0
--- CREATE TRIGGER                           0
--- ALTER TRIGGER                            0
--- CREATE DATABASE                          0
--- CREATE DEFAULT                           0
--- CREATE INDEX ON VIEW                     0
--- CREATE ROLLBACK SEGMENT                  0
--- CREATE ROLE                              0
--- CREATE RULE                              0
--- CREATE SCHEMA                            0
--- CREATE SEQUENCE                          0
--- CREATE PARTITION FUNCTION                0
--- CREATE PARTITION SCHEME                  0
--- 
--- DROP DATABASE                            0
--- 
--- ERRORS                                   0
--- WARNINGS                                 0
