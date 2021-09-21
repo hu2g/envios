@@ -7,6 +7,18 @@ Este es un sistema en el cual tanto clientes como visitantes pueden cotizar env�
 * API Rest con Spring Boot
 * Aplicacion cliente con Angular JS  
 
+# Directorios
+
+* /api : Contiene el codigo fuente de la API Rest.
+
+* /client : Contiene el codigo fuente de la aplicación cliente.
+
+* /ScriptsDB : Contiene scripts de la base de datos.
+    * ScriptDB.sql : Script de la base de datos.
+    * Inserts.sql : Inserts de prueba.
+    * StoreProcedures.sql : Procedimientos almacenados utilizados.
+    * ModeloFisico.png : Imagen del modelo ER. 
+
 # Explicación
 
 Link del video: 
