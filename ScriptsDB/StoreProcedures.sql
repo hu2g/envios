@@ -26,7 +26,7 @@ EXECUTE REGIONS;
 CREATE OR ALTER PROCEDURE CUSTOMERS 
 AS
 BEGIN
-	SELECT P.Customer_id_Customer, C.code, C.name, C.phone, COUNT(P.Customer_id_Customer) AS consumo
+	SELECT P.Customer_id_Customer AS id_customer, C.code, C.name, C.phone, COUNT(P.Customer_id_Customer) AS consumo
 	FROM Customer C, Package P
 	WHERE P.Customer_id_customer = C.id_Customer
 	GROUP BY P.Customer_id_customer, C.code, C.name, C.phone;
