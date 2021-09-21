@@ -21,7 +21,7 @@ Este es un sistema en el cual tanto clientes como visitantes pueden cotizar env√
 
 # Explicaci√≥n
 
-Link del video: 
+Link del video: https://drive.google.com/drive/folders/1kcwTYpWXrkouME4HomwZ76jhZe4mYb6A
 
 # Consideraciones
 

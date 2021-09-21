@@ -83,20 +83,20 @@ app.controller('HomeController', function(HomeFactory){
 	}
 
 	HomeFactory.getCustomers().then(function(data){
-		//console.log(data.data);
+		console.log(data.data);
 		vm.customers = data.data;
 		vm.customers.push(c);
 	});
 	HomeFactory.getCountries().then(function(data){
-		//console.log(data.data);
+		console.log(data.data);
 		vm.countries = data.data;
 	});
 	HomeFactory.getRegions().then(function(data){
-		//console.log(data.data);
+		console.log(data.data);
 		vm.regions = data.data;
 	});
 	HomeFactory.getDiscounts().then(function(data){
-		//console.log(data.data);
+		console.log(data.data);
 		vm.discounts = data.data;
 	});
 
