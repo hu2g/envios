@@ -12,12 +12,14 @@ public class Country {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id_country;
 	private String name;
+	private int region;
 	
 	public Country() { }
 	
-	public Country(int id_country, String name) {
+	public Country(int id_country, String name, int region) {
 		this.id_country = id_country;
 		this.name = name;
+		this.region = region;
 	}
 	
 	public int getId_country() {
@@ -25,6 +27,9 @@ public class Country {
 	}
 	public String getName() {
 		return name;
+	}
+	public int getRegion() {
+		return region;
 	}
 	
 	public void setId_country(int id_country) {

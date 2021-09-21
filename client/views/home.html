@@ -1,0 +1,43 @@
+<div class="container">
+	<div class="row">
+		<form ng-submit="home.cotizar(cotiza)" class="col-md-4">
+			<div class="form-group">
+				<label for="">Peso (kg)</label>
+				<input class="form-control" ng-model="cotiza.peso" type="number" required>
+			</div>
+
+			<div class="form-group">
+				<label for="">Ancho (in)</label>
+				<input class="form-control" ng-model="cotiza.ancho" type="number" required>
+			</div>
+
+			<div class="form-group">
+				<label for="">Alto (in)</label>
+				<input class="form-control" ng-model="cotiza.alto" type="number" required>
+			</div>
+
+			<div class="form-group">
+				<label for="">Largo (in)</label>
+				<input class="form-control" ng-model="cotiza.largo" type="number" required>
+			</div>
+
+			<div class="form-group">
+				<label for="">Pais</label>
+				<select class="form-control" ng-model="cotiza.destino">
+					<option ng-repeat="c in home.countries" value="{{c.id_country}}">{{c.name}}</option>
+				</select>
+			</div>
+			
+			<div class="form-group">
+				<label for="">Cliente</label>
+				<select class="form-control" ng-model="cotiza.cliente">
+					<option ng-repeat="c in home.customers" value="{{c.id_customer}}">{{c.name}}</option>
+				</select>
+			</div>
+			<button type="submit" class="btn btn-success">Calcular</button>
+			
+		</form>
+		<label for="">{{cotizacion}}</label>
+		
+	</div>
+</div>

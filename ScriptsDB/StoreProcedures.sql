@@ -10,7 +10,7 @@ EXECUTE DISCOUNTS;
 CREATE OR ALTER PROCEDURE COUNTRIES 
 AS
 BEGIN
-	select id_country, name from Country;
+	select id_country, name, Region_id_region AS region from Country;
 END;
 EXECUTE COUNTRIES;
 
